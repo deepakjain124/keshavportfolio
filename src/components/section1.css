@@ -1,0 +1,358 @@
+.main-container {
+    margin-top: 20px;
+}
+
+html {
+    font-size: 72%;
+}
+
+.main-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*first section Me */
+
+.container .left {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.left h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.left p {
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+.left button {
+    width: 25rem;
+    font-weight: bold;
+    border: none;
+    font-size: 12px;
+    background-color: rgb(53, 53, 236);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.right img {
+    width: 30rem;
+    border-radius: 60% 40% 40% 50% / 0% 90% 30% 25%;
+}
+
+
+/*first section Me end */
+
+
+/*second section About */
+
+.second-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.second-left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.second-left .about {
+    width: 400px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.second-left .academics {
+    font-size: 20px;
+    text-align: start;
+}
+
+.arrow {
+    border: 1px soild black;
+    background-color: rgb(36, 50, 235);
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+}
+
+.second-right .details {
+    background-color: rgb(115, 110, 121);
+    text-align: start;
+    padding: 40px;
+}
+
+.details h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.details p {
+    text-align: start;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.second-right img {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60% 40% 40% 50% / 90% 50% 30% 25%;
+}
+
+
+/*Second section About end*/
+
+
+/*third section Experience */
+
+.section-3 h1,
+p {
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.section-3 .third-heading {
+    font-weight: bold;
+    border-radius: 70px;
+}
+
+.section-3 p {
+    font-size: 20px;
+}
+
+.section-3 h1 {
+    font-weight: bold;
+}
+
+.section-3 h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-3 .skill {
+    margin-top: 20px;
+}
+
+.third-left {
+    background-color: rgb(91, 172, 238);
+    width: 400px;
+    text-align: center;
+    line-height: 9px;
+    padding: 20px;
+}
+
+.third-right {
+    background-color: rgb(91, 172, 238);
+    width: 400px;
+    text-align: center;
+    line-height: 9px;
+    padding: 20px;
+}
+
+.third-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image .image1 {
+    margin: 50px;
+}
+
+
+/*third section Experience end */
+
+
+/*fourth section offers */
+
+.offers {
+    background-color: rgba(209, 236, 218, 0.925);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.offers h1 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.offers button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(53, 53, 236);
+    border-radius: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+/*fourth section offers end */
+
+
+/*fifth section footer */
+
+.designing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(209, 236, 218, 0.925);
+    margin-top: 35px;
+    padding-top: 15px;
+}
+
+.designing h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.designing .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons p {
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+
+/*fifth section footer end */
+
+
+/*sixth section projects */
+
+.projects {
+    text-align: center;
+}
+
+.projects h1 {
+    font-weight: bold;
+}
+
+.projects button {
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background: blue;
+    width: 300px;
+    font-size: 17px;
+}
+
+.projects .icons {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.project-names:hover .overlay {
+    opacity: 0.5;
+}
+
+
+/*sixth section projects end */
+
+@media(max-width:968px) {
+    .main-container .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .second-container .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .second-left .about {
+        width: 300px;
+    }
+    .third-container .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third-left {
+        width: 330px;
+    }
+    .third-right {
+        width: 330px;
+    }
+    .right img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .second-left {
+        margin-top: 20px;
+    }
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .image .image1 {
+        margin: 5px;
+    }
+}
